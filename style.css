@@ -1,0 +1,45 @@
+/* Think of a survey name and font for h1 */
+
+html {
+    font-family: monospace;
+    font-size: 10px;
+    background-color: pink;
+    text-align: left;
+    color: purple;
+  }
+  
+  header {
+    font-size: 20px;
+    color: rgb(255, 100, 0);
+    text-align: center
+  }
+  #description {
+    text-align: center;
+    color: rgb(255, 100, 0);
+  }
+  body {
+    font-size: 20px;
+    display: grid;
+  }
+  div {
+    background-color: orange
+  }
+  @media (min-width: 1800px) {
+    body {
+      padding: 0 700px;
+    }
+  }
+  textarea {
+    width: 500px;
+    height: 100px;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+    
+  button {
+    background-color: lightblue;
+  }
